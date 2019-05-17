@@ -1,5 +1,5 @@
 import unittest
-
+# UNTIL THE LINE THIS IS MY TERRITORY DO NOT EVEN THINK ABOUT TO EDIT THIS PART
 class test_consonant(unittest.TestCase):
 	"""docstring for test_consonant"""
 	def test_upper(self):
@@ -7,6 +7,9 @@ class test_consonant(unittest.TestCase):
 
 	def test_consonant(self):
 		self.assertEqual(consonant('asztal'), 3)
+
+		
+###### YOU CAN TOUCH things ONLY UNDER THIS => __________ <= LINE!!
 
 def consonant(string: str) ->int:
 	"""
